@@ -1,0 +1,29 @@
+{
+    "name": "rsarker/helper",
+    "description": "This will provide mostly used some helper function",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rsarker\\Helper\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Rubel SPN14",
+            "email": "spn14@spondonit.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rsarker\\Helper\\HelperServiceProvider"
+            ]
+        }
+    }
+}
